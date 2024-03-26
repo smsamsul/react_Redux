@@ -24,20 +24,11 @@ export const counterSlice = createSlice({
              console.log("ffff", state.value,action)
              },
 
-             FiveIncrement1: (state)=>{
-
-              state.value ++
-
-             },
-
-             FiveDrcement1: (state)=>{
-              if(state.value > 1){
-                
-                state.value --
-              }
+            
+          
+           
              
 
-             },
 
 
 
@@ -46,6 +37,7 @@ export const counterSlice = createSlice({
 })
 
 
-export const { increment, disincrement,devided, FiveIncrement1,FiveDrcement1} = counterSlice.actions
+export const { increment, disincrement,devided, 
+  } = counterSlice.actions
 
 export default counterSlice.reducer
