@@ -7,7 +7,7 @@ const Pulase = () => {
 
   return (
     <div>
-      <button onClick={()=>dispatvh(increment(5))}>Pulase</button>
+      <button onClick={()=>dispatvh(increment(5))}>FiveIncrement</button>
     </div>
   )
 }

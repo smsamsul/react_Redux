@@ -5,7 +5,7 @@ const Minus = () => {
 let dispatch = useDispatch()
   return (
     <div>
-      <button onClick={()=> dispatch(disincrement(5))}>Minus</button>
+      <button onClick={()=> dispatch(disincrement(5))}>FiveDrcement</button>
     </div>
   )
 }
